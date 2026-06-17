@@ -31,6 +31,13 @@ For swagger documentation, go to http://localhost:5159/swagger
 
 ### Auth flow 
 1. Register or Login to get your JWT (the admin user's credentials are hardcoded, you need to create users yourself)
+
+
+Admin credentials are:
+
+- Email: admin@test.com
+- Username: admin
+
 2. add the token in the auth section of your postman requests as a bearer token, you will require it for all non-login or register endpoints
 
 ### Roles:
